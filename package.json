@@ -1,0 +1,16 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler pages deploy ./ --project-name=links"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "wrangler": "^4.33.1"
+  }
+}
