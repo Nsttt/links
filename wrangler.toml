@@ -1,0 +1,19 @@
+name = "nstlopez-links"
+
+
+[env.production]
+name = "nstlopez-links"
+routes = [{ pattern = "links.nstlopez.com/*", zone_name = "nstlopez.com" }]
+
+# Static site configuration
+[site]
+bucket = "./"
+
+# Build configuration
+compatibility_flags = []
+
+# Assets configuration for static files
+[assets]
+# Include all static assets
+include = ["**/*"]
+exclude = ["wrangler.toml", "README.md", "LICENSE.md", "VERSION.md", "docker/"]
